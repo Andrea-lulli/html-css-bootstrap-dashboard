@@ -8,3 +8,17 @@ header{
     width: 100%;
 }
 
+.sidebar{
+    height: calc(100vh - 50px);  
+    background-color: rgba(18,40,63,255);
+}
+
+.pulsante-bt {
+    margin-top: auto;
+}
+
+
+
+
+
+
