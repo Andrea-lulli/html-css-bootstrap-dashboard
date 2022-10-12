@@ -13,12 +13,12 @@ header{
     background-color: rgba(18,40,63,255);
 }
 
-.pulsante-bt {
-    margin-top: auto;
-}
-
 .img-tabella{
     width: 30px;
+}
+
+.bg_st-online{ 
+    background-color:rgba(26,115,232,255);
 }
 
 
