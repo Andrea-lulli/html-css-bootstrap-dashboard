@@ -3,18 +3,22 @@
 }
 
 header{
-    height: 50px;
+    height: 60px;
     justify-content: space-between;
     width: 100%;
 }
 
 .sidebar{
-    height: calc(100vh - 50px);  
+    height: calc(100vh - 60px);  
     background-color: rgba(18,40,63,255);
 }
 
 .pulsante-bt {
     margin-top: auto;
+}
+
+.img-tabella{
+    width: 30px;
 }
 
 
