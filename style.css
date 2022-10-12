@@ -1,0 +1,10 @@
+.bootstrap{
+    height: 100vh;
+}
+
+header{
+    height: 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+
