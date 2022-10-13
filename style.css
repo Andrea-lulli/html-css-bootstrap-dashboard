@@ -12,7 +12,7 @@ main, header{
 }
 
 .img-tabella{
-    width: 30px;
+    width: 27px;
 }
 
 .bg_st-online{ 
@@ -24,6 +24,38 @@ div .scroll-cn{
     overflow-y: auto;
     height: calc(100vh - 58px);
 }
+
+.fa-square-plus{
+    font-size: 30px;
+}
+
+@media screen 
+and ( max-width: 720px ){
+    .offcanvas, .offcanvas-end{
+        width: 100% !important;
+    }
+}
+
+@media screen 
+and ( min-width: 721px ){
+    .offcanvas, .offcanvas-end{
+        width: 70% !important;
+    }
+}
+
+.bg-badge{
+    background-color:rgba(21,92,186,255) !important ;
+}
+
+.bg-yellow {
+    background-color:rgba(255,193,7,255) ;
+}
+
+.fa-pen{
+    font-size: 15px;
+}
+
+
 
 
 
