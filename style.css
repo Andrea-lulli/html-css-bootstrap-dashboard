@@ -34,12 +34,27 @@ and ( max-width: 720px ){
     .offcanvas, .offcanvas-end{
         width: 100% !important;
     }
+
+    .badge-none{
+        display: none;
+    }
+    .th-none{
+        display: none;
+    }
 }
 
 @media screen 
 and ( min-width: 721px ){
     .offcanvas, .offcanvas-end{
         width: 70% !important;
+    }
+
+    .badge-none{
+        display: inline;
+    }
+
+    .badge1-none{
+        display: none;
     }
 }
 
