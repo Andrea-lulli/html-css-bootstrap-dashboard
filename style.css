@@ -8,6 +8,7 @@ main, header{
 .sidebar{
     height: calc(100vh - 58px);  
     background-color: rgba(18,40,63,255);
+    flex-direction: column;
 }
 
 .img-tabella{
@@ -23,6 +24,10 @@ div .scroll-cn{
     overflow-y: auto;
     height: calc(100vh - 58px);
 }
+
+
+
+
 
 
 
