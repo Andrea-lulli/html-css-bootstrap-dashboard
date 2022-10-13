@@ -17,7 +17,7 @@
     <!-- header -->
     <div class="conteiner-fluid px-0">
       <header class="row align-items-center">
-        <nav class="navbar bg-light col-2 col-md-3 col-lg-3">
+        <nav class="navbar bg-light col-2 col-md-1 col-lg-3">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class=" mx-1" src="./img/logo.svg" alt="logo">
@@ -25,7 +25,7 @@
           </div>
         </nav>
   
-        <nav class="navbar bg-light col-9 col-md-8 col-lg-6">
+        <nav class="navbar bg-light col-9 col-md-10 col-lg-6">
           <div class="container-fluid">
             <form class="d-flex col-12" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -56,29 +56,29 @@
     </div>
     
 
-    <!-- contenitore parte centrale -->
+    <!-- contenitore main e sidebar-->
     <div class="conteiner-fluid px-0">
       <main class="row">
 
         <!-- sidebar -->
-        <div class="sidebar col-2  text-white d-flex align-items-center">
+        <div class="sidebar col-2 col-md-1 col-lg-2 text-white d-flex align-items-center">
           <div class="pulsanti text-center conteiner-fluid ">
             <div class="home row align-items-center mt-3 ">
               <i class="col-12 col-md-3 fa-solid fa-house"></i>
-              <span class="d-none d-sm-block col-md-7">Home</span>            
+              <span class="d-none d-sm-block d-md-none d-lg-block col-md-7">Home</span>            
             </div>
             <div class="stats  row align-items-center mt-3">
               <i class="col-12 col-md-3 fa-solid fa-chart-simple"></i>
-              <span class="d-none d-sm-block col-md-7 ">Signals</span>
+              <span class="d-none d-sm-block d-md-none d-lg-block col-md-7 ">Signals</span>
             </div>
             <div class="signals  row align-items-center mt-3">
               <i class="col-12 col-md-3 fa-solid fa-signal"></i>
-              <span class="d-none d-sm-block col-md-7 ">Signals</span>            
+              <span class="d-none d-sm-block d-md-none d-lg-block col-md-7 ">Signals</span>            
             </div>
   
             <div class="admin row align-items-center mt-3">
               <i class="col-12 col-md-3 fa-solid fa-gear"></i>
-              <span class="d-none d-sm-block col-md-7 ">Admin</span>            
+              <span class="d-none d-sm-block d-md-none d-lg-block col-md-7 ">Admin</span>            
             </div>
           </div>
         
@@ -86,16 +86,16 @@
           
         </div>
         
-        <!-- main lato destro -->
-        <div class="col-10  conteiner-fluid scroll-cn">
+        <!-- main  -->
+        <div class="col-10 col-md-11 col-lg-10  conteiner-fluid scroll-cn">
           <div class="row">
   
             <!-- studenti online -->
             <div class="bg_st-online col-12 py-4">
               <div class="row text-white">
               
-                <!-- lato sinistro -->
-                <div class="col-12 col-md-9">                   
+                <!--studenti online lato sinistro -->
+                <div class="col-12 col-md-12 col-lg-7 py-2">                   
                   <span class="fs-3">Boolean</span>
                   <span class="bg-badge badge rounded-pill text-bg-primary">Piano blaze</span>
                   <div>
@@ -108,25 +108,25 @@
                   </div>
                 </div>
                 
-                 <!-- lato destro -->
-                <div class="col-12 col-md-3">
+                 <!--studenti online lato destro -->
+                <div class="col-12 col-md-12 col-lg-5 py-2">
                   <div>Studenti online negli ultimi 30 minuti</div>
                   <div class="fs-4">125</div>
                 </div>
               </div>
             </div>
             
-            <!-- colonna prossime classi -->
+            <!-- conteiner prossime classi e todo -->
             <div class="conteiner-fluid">
               <div class=" px-0 my-3 row">
             
-                <!-- titolo-prossime classi -->
+                <!--prossime classi - f.a.q-->
                <div class="row justify-content-between col-12  col-mg-8 col-lg-8">
                  <div class="col-8 ">
                     <h4 class="mx-3">Prossime classi</h4>
                  </div>
                  <div class="col-4 text-end">
-                   <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-regular fa-square-plus"></i></button>
+                   <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class=" pr-classi fa-regular fa-square-plus"></i></button>
                    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                      <div class="offcanvas-header">
                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
@@ -179,10 +179,10 @@
                        </form>
                    </div>  
                  </div>
-               </div>
+                 </div>
    
-                <!-- tabella -->       
-                <div class="my-2 col-12">
+                 <!-- tabella -->       
+                 <div class="my-2 col-12">
                   <div class="table-responsive-md">
                     <table class="table table-striped table-hover align-middle">
                       <thead>
@@ -278,10 +278,10 @@
                       </tbody>
                     </table>              
                   </div> 
-                </div>
+                 </div>
    
-                <!-- faq -->
-                <div class="conteiner-fluid px-0 my-5">
+                 <!-- faq -->
+                 <div class="conteiner-fluid px-0 my-5">
                  <div>
            <h4 class="mx-3">F.A.Q.</h4>
                  </div>
@@ -317,15 +317,15 @@
              </div>
            </div>
                  </div>
-                </div> 
+                 </div> 
                </div>
    
-             <!--  colonna todo -->
+               <!-- todo -->
                <div class="col-12 col-mg-4 col-lg-4 my-3">
    
                 <div class="card">
                  <div class="card-header">
-                   Featured
+                   <h3>Todo</h3>
                  </div>
                  <div class="card-body">
                    <div class="form-check">
@@ -373,10 +373,7 @@
                 </div>
                </div>
              </div>
-
-            </div>
-
-            
+            </div>       
           </div>
         </div>       
       </main>

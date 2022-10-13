@@ -1,9 +1,7 @@
 
-
 main, header{
     width: 100vw;
 } 
-
 
 .sidebar{
     height: calc(100vh - 58px);  
@@ -29,8 +27,27 @@ div .scroll-cn{
     font-size: 30px;
 }
 
+.bg-badge{
+    background-color:rgba(21,92,186,255) !important ;
+}
+
+.bg-yellow {
+    background-color:rgba(255,193,7,255) ;
+}
+
+.fa-pen{
+    font-size: 15px;
+}
+
+.pr-classi{
+    color: rgba(26,115,232,255);
+}
+
+
+
+/* responsive fino al tablet */
 @media screen 
-and ( max-width: 720px ){
+and ( max-width: 768px ){
     .offcanvas, .offcanvas-end{
         width: 100% !important;
     }
@@ -43,8 +60,9 @@ and ( max-width: 720px ){
     }
 }
 
+/* respondive dal tablet in poi */
 @media screen 
-and ( min-width: 721px ){
+and ( min-width: 769px ){
     .offcanvas, .offcanvas-end{
         width: 70% !important;
     }
@@ -55,20 +73,9 @@ and ( min-width: 721px ){
 
     .badge1-none{
         display: none;
-    }
+    }   
 }
 
-.bg-badge{
-    background-color:rgba(21,92,186,255) !important ;
-}
-
-.bg-yellow {
-    background-color:rgba(255,193,7,255) ;
-}
-
-.fa-pen{
-    font-size: 15px;
-}
 
 
 
