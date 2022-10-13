@@ -2,14 +2,12 @@
     height: 100vh;
 }
 
-header{
-    height: 60px;
-    justify-content: space-between;
-    width: 100%;
+main, header{
+    width: 100vw;
 }
 
 .sidebar{
-    height: calc(100vh - 60px);  
+    height: calc(100vh - 58px);  
     background-color: rgba(18,40,63,255);
 }
 
@@ -19,7 +17,14 @@ header{
 
 .bg_st-online{ 
     background-color:rgba(26,115,232,255);
+
 }
+
+
+
+
+
+ 
 
 
 
