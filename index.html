@@ -142,53 +142,55 @@
                     <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1"
                       id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                       <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Form</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
                       <div class="offcanvas-body">
                         <form class="row g-3">
                           <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <div class="input-group mb-3">
+                              <span class="input-group-text " id="basic-addon1">@</span>
+                              <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                            </div>
                           </div>
                           <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Password</label>
                             <input type="password" class="form-control" id="inputPassword4">
                           </div>
                           <div class="col-12">
-                            <label for="inputAddress" class="form-label">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="">
                           </div>
-                          <div class="col-12">
-                            <label for="inputAddress2" class="form-label">Address 2</label>
-                            <input type="text" class="form-control" id="inputAddress2"
-                              placeholder="Apartment, studio, or floor">
-                          </div>
-                          <div class="col-md-6">
-                            <label for="inputCity" class="form-label">City</label>
+                          <div class="col-md-7">
+                            <label for="inputCity" class="form-label">Città</label>
                             <input type="text" class="form-control" id="inputCity">
                           </div>
-                          <div class="col-md-4">
-                            <label for="inputState" class="form-label">State</label>
+                          <div class="col-md-5">
+                            <label for="inputState" class="form-label">Stato</label>
                             <select id="inputState" class="form-select">
-                              <option selected>Choose...</option>
+                              <option selected>Scegli..</option>
                               <option>...</option>
                             </select>
                           </div>
-                          <div class="col-md-2">
-                            <label for="inputZip" class="form-label">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
+                          <div class="col-12">
+                            <div class="input-group flex-nowrap">
+                              <span class="input-group-text" id="addon-wrapping">Scegli file</span>
+                              <input type="text" class="form-control" placeholder="Nessun file selezionato" aria-label="" aria-describedby="addon-wrapping">
+                            </div>
                           </div>
                           <div class="col-12">
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" id="gridCheck">
                               <label class="form-check-label" for="gridCheck">
-                                Check me out
+                                Seleziona per proseguire
                               </label>
                             </div>
                           </div>
                           <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Sign in</button>
+                            <button type="submit" class="btn btn-primary">Salva</button>
+                            <button type="submit" class="btn bg-yellow">Svuota</button>
                           </div>
                         </form>
                       </div>
@@ -215,8 +217,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge text-bg-success">Done</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                              <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                           <tr class="">
@@ -226,8 +230,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge text-bg-success">Done</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                           <tr class="">
@@ -236,8 +242,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge bg-yellow text-bg">process</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                           <tr class="">
@@ -246,8 +254,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge text-bg-success">Done</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                           <tr class="">
@@ -256,8 +266,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge text-bg-danger">failed</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                           <tr class="">
@@ -266,8 +278,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge text-bg-success">Done</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                           <tr class="">
@@ -276,8 +290,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge text-bg-danger">failed</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                           <tr class="">
@@ -286,8 +302,10 @@
                             <td class="th-none">20%</td>
                             <td><span class="badge text-bg-success">Done</span></td>
                             <td>
-                              <button type="button" class="btn btn-outline-secondary mx-1"><i class="fa-solid fa-pen"></i>
-                                <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i>
+                              <button type="button" class="btn btn-outline-secondary mx-1"><i
+                                  class="fa-solid fa-pen"></i>
+                                <button type="button" class="btn btn-outline-secondary"><i
+                                    class="fa-solid fa-trash"></i>
                             </td>
                           </tr>
                         </tbody>

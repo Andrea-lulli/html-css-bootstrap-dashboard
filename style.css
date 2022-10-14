@@ -73,7 +73,7 @@ td:first-child {
 }
 
 /* respondive dal tablet in poi */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) {
 
     .offcanvas,
     .offcanvas-end {
