@@ -1,96 +1,80 @@
-
-main, header{
+main,
+header {
     width: 100vw;
-} 
+}
 
-.sidebar{
-    height: calc(100vh - 58px);  
-    background-color: rgba(18,40,63,255);
+.sidebar {
+    height: calc(100vh - 58px);
+    background-color: rgba(18, 40, 63, 255);
     flex-direction: column;
 }
 
-.img-tabella{
+.img-tabella {
     width: 27px;
 }
 
-.bg_st-online{ 
-    background-color:rgba(26,115,232,255);
+.bg_st-online {
+    background-color: rgba(26, 115, 232, 255);
 
 }
 
-div .scroll-cn{
+div .scroll-cn {
     overflow-y: auto;
     height: calc(100vh - 58px);
 }
 
-.fa-square-plus{
+.fa-square-plus {
     font-size: 30px;
 }
 
-.bg-badge{
-    background-color:rgba(21,92,186,255) !important ;
+.bg-badge {
+    background-color: rgba(21, 92, 186, 255) !important;
 }
 
 .bg-yellow {
-    background-color:rgba(255,193,7,255) ;
+    background-color: rgba(255, 193, 7, 255);
 }
 
-.fa-pen{
+.fa-pen {
     font-size: 15px;
 }
 
-.pr-classi{
-    color: rgba(26,115,232,255);
+.pr-classi {
+    color: rgba(26, 115, 232, 255);
 }
 
 
 
 /* responsive fino al tablet */
-@media screen 
-and ( max-width: 768px ){
-    .offcanvas, .offcanvas-end{
+@media screen and (max-width: 768px) {
+
+    .offcanvas,
+    .offcanvas-end {
         width: 100% !important;
     }
 
-    .badge-none{
+    .badge-none {
         display: none;
     }
-    .th-none{
+
+    .th-none {
         display: none;
     }
 }
 
 /* respondive dal tablet in poi */
-@media screen 
-and ( min-width: 769px ){
-    .offcanvas, .offcanvas-end{
+@media screen and (min-width: 769px) {
+
+    .offcanvas,
+    .offcanvas-end {
         width: 70% !important;
     }
 
-    .badge-none{
+    .badge-none {
         display: inline;
     }
 
-    .badge1-none{
+    .badge1-none {
         display: none;
-    }   
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
