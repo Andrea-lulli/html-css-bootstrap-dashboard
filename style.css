@@ -43,10 +43,20 @@ div .scroll-cn {
     color: rgba(26, 115, 232, 255);
 }
 
+th,
+td {
+    text-align: center;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
 
 
 /* responsive fino al tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
     .offcanvas,
     .offcanvas-end {
@@ -63,7 +73,7 @@ div .scroll-cn {
 }
 
 /* respondive dal tablet in poi */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
 
     .offcanvas,
     .offcanvas-end {
